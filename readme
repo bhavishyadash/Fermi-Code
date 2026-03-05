@@ -1,0 +1,2 @@
+To run: cd ~/Desktop
+python3 "import math.py"
