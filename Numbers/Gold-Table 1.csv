@@ -1,0 +1,27 @@
+strategy,question,gold_standard_answer,gold_label,split,gold_value,gold_unit
+A_scale_total,"As of 2016, about what percentage of adults aged 18 years or older were overweight?",40%,C,test,40,percent
+A_scale_total,"As of 2019, about what percentage of the world population lives in extreme poverty (less than $1.90 a day)?",10%,B,test,10,percent
+A_scale_total,"In 2016, about how many people in the United States were homeless?","550,000",B,test,550000,count
+A_scale_total,"In 2018, about how many chickens were killed for meat production?",69 billion,C,test,69000000000,count
+A_scale_total,"As of 2019, unsafe water is responsible for about how many deaths each year?",1.2 million,A,test,1200000,count
+A_scale_total,About how many people are infected by HIV/AIDS as of 2020?,42 million,C,test,42000000,count
+A_scale_total,How many children between the ages of 5-14 worked globally as of 2012?,150 million,C,test,150000000,count
+A_scale_total,Which of the following countries emitted the most CO2 in 2017?,Japan,D,test,,non_numeric
+A_scale_total,"As of 2017, how many people in the world have some access to electricity?",80%,C,test,80,percent
+B_spatial_capacity,Which of the following countries generated the most total energy from solar sources in 2019?,China,A,test,,non_numeric
+B_spatial_capacity,"As of 2019, about what percentage of the global population does not have access to safe drinking water?",30%,C,test,30,percent
+B_spatial_capacity,"As of 2020, about what percentage of the world population practices open defecation?",9%,C,test,9,percent
+B_spatial_capacity,"As of 2017, what percentage of Americans live in urban areas?",82%,C,test,82,percent
+B_spatial_capacity,"In 2016, what percentage of the population of South Sudan had access to electricity?",9%,A,test,9,percent
+B_spatial_capacity,Public spending on education in the world is about what percentage of global GDP as of 2017?,4%,C,test,4,percent
+B_spatial_capacity,"As of 2015, about what percentage of the world’s land area is forested?",30%,B,test,30,percent
+B_spatial_capacity,"As of 2015, agriculture made up about what percentage of total US GDP?",1%,A,test,1,percent
+B_spatial_capacity,"As of 2020, about how much do you need to make annually to be among the richest one percent in the world?","$35,000 ",C,test,35000,usd
+B_spatial_capacity,"As of 2017, the share of GDP spent on the military by the United States is about",3%,B,test,3,percent
+C_time_frequency,What is the biggest cause of death in children under five years old (as of 2017)?,Lower respiratory infections,A,test,,non_numeric
+C_time_frequency,"As of 2016, about what percentage of adults aged 18 years or older were obese?",13%,B,test,13,percent
+C_time_frequency,"As of 2019, about what share of electricity came from fossil fuels in the United States?",63%,C,test,63,percent
+C_time_frequency,"As of 2017, the share of deaths in Greenland by suicide is about",7.20%,D,test,7.2,percent
+C_time_frequency,"In 2017, about how many people died from terrorism globally?","26,000",C,test,26000,count
+C_time_frequency,"As of 2015, the global fertility rate was about",2.5 children per woman,B,test,2.5,children_per_woman
+C_time_frequency,"As of 2017, the share of global deaths by suicide is about",1.40%,B,test,1.4,percent
