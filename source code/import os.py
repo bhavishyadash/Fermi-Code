@@ -232,23 +232,3 @@ def check_fp_scores(csv_paths: List[str], tolerance: float = 1e-4) -> pd.DataFra
 
     return pd.DataFrame(bad_rows)
 
-
-if __name__ == "__main__":
-    csvs = [
-        "DeepSeek-Table 1.csv",
-        "Gemini-Table 1.csv",
-        "ChatGPT-Table 1.csv",
-    ]
-
-    
-    incorrect = check_fp_scores(csvs, tolerance=1e-4)
-
-    if incorrect.empty:
-        print("All FP scores match the expected values (within tolerance).")
-    else:
-        print(f"Found {len(incorrect)} incorrect FP scores.")
-        print(incorrect[["LLM", "fp_column", "question", "gold_standard_answer", "llm_range", "fp_given", "fp_expected", "abs_diff"]])
-
-        
-        incorrect.to_csv("incorrect_fp_scores.csv", index=False)
-        print("Wrote: incorrect_fp_scores.csv")
